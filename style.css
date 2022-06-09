@@ -1,0 +1,1089 @@
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* header design start *******************************/
+.glob img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.dollar img {
+  width: 15px;
+  height: 15px;
+}
+header {
+  background-color: #00401d;
+}
+.logo_fiverr img {
+  max-width: 80px;
+  margin-top: 12px;
+}
+.header_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  text-align: center;
+}
+.list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 20%;
+}
+.list ul li {
+  list-style: none;
+  color: white;
+  padding: 0 10px;
+}
+.list ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.glob {
+  display: flex;
+  align-items: center;
+}
+.dollar {
+  display: flex;
+}
+.join_in a {
+  border: 1px solid white;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+.join_in a:hover {
+  background-color: #19a463;
+}
+/* header and famous midea qurey */
+@media only screen and (max-width: 767px) {
+  .nav_heading {
+    display: none;
+  }
+  .logos p {
+    display: none;
+  }
+  .logos img {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav_heading {
+    padding: 3px 0;
+  }
+  .logos p {
+    display: none;
+  }
+  .logos img {
+    margin-left: 20px;
+  }
+}
+
+/* header design ends *******************************/
+/* hero design start ***************************/
+.hero {
+  background-color: #00401d;
+}
+
+.hero_form img {
+  width: 16px;
+  height: 16px;
+}
+.hero_main {
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
+.hero_left_heading {
+  width: 60%;
+}
+
+.heading_hero h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: sans-serif;
+  max-width: 700px;
+}
+
+.hero_form {
+  position: relative;
+}
+
+.hero_form img {
+  position: absolute;
+  left: 15px;
+  right: 10px;
+  bottom: 0;
+  top: 16px;
+  align-items: center;
+}
+.hero_form input {
+  padding: 7px 300px;
+  font-size: 16px;
+  height: 48px;
+  padding-left: 50px;
+  border-radius: 4px 0 0 4px;
+  border-style: none;
+  margin: 0;
+}
+.hero_form button {
+  padding: 15px 24px;
+  background-color: #1dbf73;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-style: none;
+  color: white;
+}
+.popular p {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.popular {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.popular_design a {
+  margin-left: 10px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .heading_hero h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .hero_left_heading {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .hero_form {
+    position: relative;
+  }
+  .hero_form img {
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    bottom: 0;
+    top: 16px;
+    align-items: center;
+  }
+  .hero_form input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .hero_form button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  .popular {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .heading_hero h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .hero_left_heading {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .hero_form {
+    position: relative;
+  }
+  .hero_form img {
+    position: absolute;
+    left: 20px;
+    right: 10px;
+    bottom: 0;
+    top: 16px;
+    align-items: center;
+  }
+  .hero_form input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .hero_form button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  .popular {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .hero_form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 37px;
+  }
+  .heading_hero h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+/* hero design ends ***************************/
+
+/* famous logos start ********************/
+.famous_logos {
+  background-color: #fafafa;
+}
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 15px 200px;
+}
+.logos p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #b5b6ba;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 375px) {
+  .logos .paypal_img {
+    display: none;
+  }
+}
+
+/* famous logos ends ********************/
+
+/* service design start ******************************/
+
+.service_heading h2 {
+  color: #404145;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+.services_main_only {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_service {
+  flex-basis: 18%;
+}
+
+.cards_image {
+  max-width: 100%;
+  height: 345px;
+}
+
+.cards_services {
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 345px;
+  margin-left: 5px;
+  line-height: 0;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.cards_services h3 {
+  font-size: 24px;
+  line-height: 25%;
+}
+.cards_services p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.wordpress_service {
+  flex-basis: 18%;
+}
+
+.voiceover_service {
+  flex-basis: 18%;
+}
+
+.videoexplainer_service {
+  flex-basis: 18%;
+}
+
+.socialmidea_service {
+  flex-basis: 18%;
+}
+
+@media only screen and (max-width: 767px) {
+  .services_main_only {
+    justify-content: space-between;
+  }
+  .voiceover_service,
+  .videoexplainer_service,
+  .socialmidea_service {
+    display: none;
+  }
+  .wordpress_service {
+    flex-basis: 48%;
+    margin-right: 0;
+  }
+  .logo_service {
+    flex-basis: 48%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .wordpress_service {
+    display: none;
+  }
+  .logo_service {
+    flex-basis: 100%;
+  }
+  .cards_image img {
+    object-fit: fill;
+  }
+}
+/* service design end **********************/
+
+/* freelance talent design start***********************************/
+
+.freelance_talent {
+  background-color: #f1fdf7;
+}
+
+.budget img {
+  width: 30px;
+  height: 30px;
+}
+
+.freelance_talent_main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.leftside_content_talent {
+  flex-basis: 40%;
+}
+.leftside_content_talent h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #404145;
+  max-width: 27ch;
+  font-family: sans-serif;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+.budget {
+  display: flex;
+  align-items: center;
+}
+
+.rightside_content_talent {
+  flex-basis: 57%;
+  margin-top: 75px;
+}
+.heading-budget {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #404145;
+}
+.freelance_talent_parts_pera {
+  margin-top: -3px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #62646a;
+  max-width: 41ch;
+}
+
+@media only screen and (max-width: 375px) {
+  .freelance_talent_main {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .freelance_talent_main {
+    flex-direction: column;
+  }
+}
+
+/* freelance talent design end ***********************************/
+
+/* marketplace design start ************************/
+
+.all_marketplace ul li img {
+  width: 48px;
+  height: 48px;
+  /* border-bottom: 2px solid grey; */
+  padding-bottom: 5px;
+  margin: 0 auto 15px;
+  position: relative;
+}
+
+.all_marketplace ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all_marketplace ul li {
+  flex-basis: 20%;
+  list-style: none;
+  text-align: center;
+  margin-top: 35px;
+}
+.all_marketplace ul li a {
+  text-decoration: none;
+  color: #4d535b;
+  font-family: sans-serif;
+}
+.main_marketplace .heading_marketplace {
+  font-size: 32px;
+  font-weight: 700;
+  color: #404145;
+  margin-top: 90px;
+  font-family: sans-serif;
+}
+.all_marketplace ul li p {
+  font-size: 18px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.all_marketplace ul li p::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+  width: 20%;
+  height: 2px;
+  background: grey;
+}
+.all_marketplace ul li a:hover p::after {
+  width: 35%;
+  transition: 0.4s linear;
+  background-color: #19a463;
+}
+
+.all_marketplace {
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 375px) {
+  .all_marketplace ul li {
+    flex-basis: 45%;
+  }
+  .all_marketplace ul li p {
+    padding: 0 10px;
+  }
+}
+
+/* marketplace design ends ************************/
+
+/* fiverr logo design start ********************/
+.heading_business_img {
+  max-width: 22%;
+}
+
+.fiverr_business_logo {
+  background-color: #0d084d;
+}
+
+.fiverr_business_all {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fiverr_business_left {
+  flex-basis: 50%;
+}
+.fiverr_business_left h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 370px;
+  margin-top: 0;
+  font-family: sans-serif;
+}
+.fiverr_business_left .heading_business {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: sans-serif;
+  max-width: 430px;
+  text-align: left;
+}
+
+.heading_business {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.heading_business p {
+  margin-left: 7px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+  font-family: sans-serif;
+  padding-top: 0;
+}
+
+.business_checklist button {
+  margin-top: 60px;
+  padding: 12px 24px;
+  border-style: none;
+  background-color: #1dbf73;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+.business_checklist button:hover {
+  background-color: #0b7242;
+}
+
+.elements {
+  display: flex;
+  align-items: center;
+}
+.elements img {
+  width: 30px;
+  height: 30px;
+}
+.elements .elements_connect_two {
+  color: white;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: sans-serif;
+  max-width: 450px;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 22px;
+}
+.elements .elements_connect {
+  color: white;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: sans-serif;
+  max-width: 500px;
+  text-align: left;
+}
+
+.fiverr_business_right {
+  margin-top: 30px;
+  flex-basis: 50%;
+}
+
+@media only screen and (max-width: 375px) {
+  .fiverr_business_all {
+    flex-direction: column;
+  }
+}
+
+/* fiverr logo design ends ********************/
+
+/* testimonial section design start ************************/
+
+.testimonial {
+  margin: 80px 0;
+}
+
+.testimonial_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial_video_contain {
+  flex-basis: 40%;
+}
+.testimonial_video_contain img {
+  border-radius: 4px;
+}
+
+.testimonial_paragraph_design {
+  flex-basis: 55%;
+}
+.testimonial_paragraph_design i {
+  font-weight: 500;
+  font-size: 34px;
+  max-width: 300px;
+  color: #003912;
+  line-height: 140%;
+}
+.heading_testimonial {
+  display: flex;
+}
+.heading_testimonial h5 {
+  font-weight: 400;
+  color: #7a7d85;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-right: 1px solid grey;
+  padding-right: 25px;
+}
+.testimonial_logo {
+  margin-left: 20px;
+  max-width: 15%;
+  height: auto;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 375px) {
+  .testimonial_main {
+    flex-direction: column;
+    align-items: left;
+  }
+  .heading_testimonial {
+  }
+  .testimonial_logo img {
+    /* max-width: 100px; */
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  .heading_testimonial h5 {
+    /* border: none; */
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: center;
+  }
+}
+
+/* testimonial section design ends ************************/
+
+/* fiverr logo maker design starts ****************************/
+
+.logo_maker_main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4a73e8;
+  padding: 10px 0 36px 50px;
+}
+
+.logo_maker_heading {
+  flex-basis: 45%;
+}
+.logo_maker_fiverr_logo h2 {
+  font-size: 34px;
+  line-height: 39px;
+  color: #fff;
+  margin-top: 0;
+  font-family: sans-serif;
+  letter-spacing: 1;
+  margin-bottom: 5px;
+}
+.logo_maker_fiverr_logo i {
+  font-size: 36px;
+  color: white;
+  line-height: 39px;
+}
+.logo_maker_fiverr_logo p {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+}
+.logo_maker_fiverr_logo button {
+  padding: 12px 24px;
+  color: #4a73e8;
+  background-color: white;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.logo_maker_fiverr_logo button:hover {
+  background-color: #d4defb;
+}
+.logo_maker_left_up {
+  display: flex;
+  align-items: center;
+}
+.logo_maker_left_up p {
+  margin-left: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+.logo_maker_left_up_logo {
+  max-width: 15%;
+  height: auto;
+}
+
+.logo_maker_image {
+  flex-basis: 55%;
+  align-items: center;
+}
+.logo_maker_image {
+  margin-top: 60px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 375px) {
+  .logo_maker_main {
+    flex-direction: column;
+  }
+}
+/* fiverr logo maker design starts ****************************/
+
+/* guides design start ******************/
+
+.fiverr_guides {
+  margin-bottom: 100px;
+}
+
+.fiverr_guides_main h2 {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #404145;
+}
+
+.guides_all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fiverr_guides_business {
+  flex-basis: 31.5%;
+}
+
+.fiverr_guides_marketing {
+  flex-basis: 31.5%;
+}
+
+.fiverr_guides_logo {
+  flex-basis: 31.5%;
+}
+.fiverr_guides_main a {
+  text-decoration: none;
+}
+.fiverr_guides_main h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #404145;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+.fiverr_guides_main p {
+  color: #7a7d85;
+  font-weight: 500;
+  font-size: 17px;
+  margin: 0px;
+  font-family: sans-serif;
+  line-height: 120%;
+}
+
+@media only screen and (max-width: 375px) {
+  .guides_all {
+    flex-direction: column;
+  }
+  .fiverr_guides_business,
+  .fiverr_guides_marketing,
+  .fiverr_business_logo {
+    margin-bottom: 40px;
+  }
+}
+/* guides design ends ******************/
+
+/* bg signup design start *************************/
+
+.bg_signup {
+  position: relative;
+  margin-bottom: 130px;
+  padding: 30px 0;
+}
+.bg_heading {
+  position: absolute;
+  bottom: 10px;
+  top: 100px;
+  left: 90px;
+}
+.bg_heading button:hover {
+  background-color: #19a463;
+}
+.bg_heading button {
+  border-style: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #1dbf73;
+  cursor: pointer;
+}
+.bg_heading h3 {
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+  max-width: 650px;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 575px) {
+  .bg_heading {
+    position: absolute;
+    bottom: 10px;
+    top: 15px;
+    left: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .bg_heading h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    max-width: 300px;
+    font-family: sans-serif;
+  }
+  .bg_heading button {
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #1dbf73;
+    cursor: pointer;
+  }
+}
+
+/* bg signup design end *************************/
+
+/* footer_frist design start *********************/
+
+.footer_main {
+  background-color: #ffffff;
+  border-top: 1px solid #e4e5e7;
+}
+
+.footer_frist_section_main {
+  /* border-top: 1px solid #e4e5e7; */
+  border-bottom: 1px solid #e4e5e7;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.section_catagory {
+  flex-basis: 20%;
+}
+
+.heading {
+  color: #404145;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.footer_frist_section_main .section_catagory ul li .second_title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b5b6ba;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+.footer_frist_section_main .section_catagory ul {
+  padding: 0;
+}
+.footer_frist_section_main .section_catagory ul li {
+  list-style: none;
+  padding-bottom: 16px;
+}
+.footer_frist_section_main .section_catagory ul li a {
+  text-decoration: none;
+  color: #7a7d85;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  overflow: hidden;
+}
+.footer_frist_section_main .section_catagory ul li a:hover {
+  text-decoration: underline;
+  color: #7a7d85;
+}
+
+@media only screen and (max-width: 575px) {
+  .footer_frist_section_main {
+    flex-wrap: wrap;
+  }
+  .section_catagory {
+    flex-basis: 45%;
+  }
+}
+/* footer_frist design ends *********************/
+
+/* footer final design start *********************/
+.left_logo img {
+  max-width: 15%;
+  height: auto;
+}
+.right_logo ul li img {
+  max-width: 20px;
+}
+
+.globe img {
+  width: 15px;
+  height: 15px;
+}
+.man img {
+  max-width: 20px;
+}
+.dollar img {
+  max-width: 30px;
+}
+.footer_final_main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.left_logo {
+  display: flex;
+  align-items: center;
+  flex-basis: 50%;
+}
+.left_logo p {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #bcb6ba;
+}
+.right_logo {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 15%;
+  margin-left: 60px;
+  align-items: center;
+}
+.right_logo ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.right_logo ul li {
+  margin-left: 30px;
+}
+
+.right_end_logo {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 15%;
+}
+.right_end_logo P {
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #bcb6ba;
+}
+
+.globe {
+  display: flex;
+  align-items: center;
+}
+
+.dollar {
+  display: flex;
+  align-items: center;
+}
+
+.man {
+  display: flex;
+  align-items: center;
+}
+.man img {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+.dollar p {
+  margin-left: 0px;
+}
+
+@media only screen and (max-width: 575px) {
+  .footer_final_main {
+    flex-direction: column;
+  }
+
+  .left_logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right_logo {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .right_logo ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  .left_logo p {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .right_end_logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+  }
+  .globe {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .dollar {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .man {
+    display: flex;
+    margin-left: 20px;
+  }
+}
+
+/* footer final design ends *****************************/
